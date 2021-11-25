@@ -20,4 +20,12 @@ Infrastructure defined with Terraform to manage resources on AWS.
 
 ---
 
+## Modules
+
+| **Module**                          | **Purpose**                                                                                     |
+| ----------------------------------- | ----------------------------------------------------------------------------------------------- |
+| [IAM](./src/iam/)                   | Defines group permissions (on root account) to access specific AWS organization for the project |
+| [place-events](./src/place-events/) | Creates SQS queues                                                                              |
+
+
 
