@@ -1,5 +1,6 @@
 <p align="center">
-    <img src="./img/logo-light.png">
+    <img src="./img/logo-light.png#gh-light-mode-only">
+    <img src="./img/logo-dark.png#gh-dark-mode-only">
 </p>
 
 <h2 align="center">Restaurant Directory Listing Infra</h2>
