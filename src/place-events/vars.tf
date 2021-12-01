@@ -5,3 +5,15 @@ variable "aws_role" {
 variable "on_place_scrapped_queue_name" {
     default = "on-place-scrapped"
 }
+
+variable "db_name" {
+  default = "restaurants"
+}
+
+variable "db_user" {
+    description = "User to access database"
+}
+
+variable "db_password" {
+    description = "Password to access database"
+}
